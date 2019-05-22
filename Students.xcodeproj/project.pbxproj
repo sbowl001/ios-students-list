@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D59B908211812F9002FB7CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59B907211812F9002FB7CD /* AppDelegate.swift */; };
-		9D59B90D211812FA002FB7CD /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D59B90B211812FA002FB7CD /* main.storyboard */; };
+		9D59B90D211812FA002FB7CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D59B90B211812FA002FB7CD /* Main.storyboard */; };
 		9D59B90F211812FA002FB7CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D59B90E211812FA002FB7CD /* Assets.xcassets */; };
 		9D59B912211812FA002FB7CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D59B910211812FA002FB7CD /* LaunchScreen.storyboard */; };
 		9D59B9242118136C002FB7CD /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59B9232118136C002FB7CD /* Student.swift */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		9D59B904211812F9002FB7CD /* Students.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Students.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D59B907211812F9002FB7CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D59B90C211812FA002FB7CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
+		9D59B90C211812FA002FB7CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D59B90E211812FA002FB7CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D59B911211812FA002FB7CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D59B913211812FA002FB7CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		9D59B91921181300002FB7CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9D59B90B211812FA002FB7CD /* main.storyboard */,
+				9D59B90B211812FA002FB7CD /* Main.storyboard */,
 				9D59B90E211812FA002FB7CD /* Assets.xcassets */,
 				9D59B910211812FA002FB7CD /* LaunchScreen.storyboard */,
 				9D59B913211812FA002FB7CD /* Info.plist */,
@@ -160,7 +160,7 @@
 			files = (
 				9D59B912211812FA002FB7CD /* LaunchScreen.storyboard in Resources */,
 				9D59B90F211812FA002FB7CD /* Assets.xcassets in Resources */,
-				9D59B90D211812FA002FB7CD /* main.storyboard in Resources */,
+				9D59B90D211812FA002FB7CD /* Main.storyboard in Resources */,
 				CEC62F142289BE35007ED0C5 /* students.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,12 +183,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9D59B90B211812FA002FB7CD /* main.storyboard */ = {
+		9D59B90B211812FA002FB7CD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9D59B90C211812FA002FB7CD /* Base */,
 			);
-			name = main.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		9D59B910211812FA002FB7CD /* LaunchScreen.storyboard */ = {
