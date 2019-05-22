@@ -10,13 +10,33 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    // MARK: Outlets & Properties
+    
+    @IBOutlet weak var sortSegmentedControl: UISegmentedControl!
+    
+    
+    @IBOutlet weak var filterSegmentedControl: UISegmentedControl!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    // MARK: IB Actions and Methods
     
-
+    @IBAction func sort(_ sender: UISegmentedControl) {
+    }
+    
+    
+    @IBAction func filter(_ sender: UISegmentedControl) {
+    }
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

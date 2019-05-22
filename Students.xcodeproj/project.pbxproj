@@ -14,6 +14,7 @@
 		9D59B9242118136C002FB7CD /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59B9232118136C002FB7CD /* Student.swift */; };
 		A38C32972294E301008DD661 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C32962294E301008DD661 /* MainViewController.swift */; };
 		A38C32992294E31D008DD661 /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C32982294E31D008DD661 /* StudentsTableViewController.swift */; };
+		A38C329C2294E69C008DD661 /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38C329B2294E69C008DD661 /* StudentController.swift */; };
 		CEC62F142289BE35007ED0C5 /* students.json in Resources */ = {isa = PBXBuildFile; fileRef = CEC62F132289BE35007ED0C5 /* students.json */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		9D59B9232118136C002FB7CD /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		A38C32962294E301008DD661 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A38C32982294E31D008DD661 /* StudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
+		A38C329B2294E69C008DD661 /* StudentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
 		CEC62F132289BE35007ED0C5 /* students.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = students.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				9D59B9232118136C002FB7CD /* Student.swift */,
+				A38C329B2294E69C008DD661 /* StudentController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38C329C2294E69C008DD661 /* StudentController.swift in Sources */,
 				A38C32972294E301008DD661 /* MainViewController.swift in Sources */,
 				9D59B908211812F9002FB7CD /* AppDelegate.swift in Sources */,
 				9D59B9242118136C002FB7CD /* Student.swift in Sources */,
